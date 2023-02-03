@@ -1,0 +1,7 @@
+motifs\_probabilisticos module
+==============================
+
+.. automodule:: motifs_probabilisticos
+   :members:
+   :undoc-members:
+   :show-inheritance:

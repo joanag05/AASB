@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SEQS1 module &mdash; Projeto AASB  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Projeto AASB
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">SEQS1 module</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Projeto AASB</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>SEQS1 module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/SEQS1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="module-SEQS1">
+<span id="seqs1-module"></span><h1>SEQS1 module<a class="headerlink" href="#module-SEQS1" title="Permalink to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="SEQS1.SEQS">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">SEQS1.</span></span><span class="sig-name descname"><span class="pre">SEQS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>class para análise de sequências biológicas</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.biotype">
+<span class="sig-name descname"><span class="pre">biotype</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.biotype" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função recebe uma string</p>
+<dl class="simple">
+<dt>Retorna:</dt><dd><p>booleano: DNA, RNA, AMINO ou ERRO</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.codon_to_amino">
+<span class="sig-name descname"><span class="pre">codon_to_amino</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.codon_to_amino" title="Permalink to this definition">¶</a></dt>
+<dd><p>função que recebe a lista de codões</p>
+<dl class="simple">
+<dt>Retorna:</dt><dd><p>str: sequência de aminoácidos</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.count_nucleo">
+<span class="sig-name descname"><span class="pre">count_nucleo</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.count_nucleo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.freq">
+<span class="sig-name descname"><span class="pre">freq</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.freq" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função que calcula a frequência de cada símbolo na sequência.</p>
+<dl class="simple">
+<dt>Retorna:</dt><dd><p>Um dicionário com a frequência de cada núcleótido</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.gc_content">
+<span class="sig-name descname"><span class="pre">gc_content</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.gc_content" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.get_all_prots">
+<span class="sig-name descname"><span class="pre">get_all_prots</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.get_all_prots" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função que recebe as 6 orfs</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>lista com todas as proteínas</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.get_codons">
+<span class="sig-name descname"><span class="pre">get_codons</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.get_codons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.get_orfs">
+<span class="sig-name descname"><span class="pre">get_orfs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.get_orfs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função que recebe uma sequência de DNA</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>lista com as seis ORFs</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.get_prots">
+<span class="sig-name descname"><span class="pre">get_prots</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.get_prots" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função que recebe uma sequência de aminoácidos</p>
+<dl class="simple">
+<dt>Retorna:</dt><dd><p>list: lista de possíveis proteínas</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.reverse_complement">
+<span class="sig-name descname"><span class="pre">reverse_complement</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.reverse_complement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função que recebe uma sequência de DNA</p>
+<dl class="simple">
+<dt>Returna:</dt><dd><p>str:O complemento reverso da sequência de DNA</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.SEQS.transcription">
+<span class="sig-name descname"><span class="pre">transcription</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.SEQS.transcription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função que calcula o RNA correspondente á transcrição da sequência de DNA fornecida.</p>
+<dl class="simple">
+<dt>Retorna:</dt><dd><p>str: A sequência de RNA correspondente á transcrição da sequência de DNA fornecida.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">SEQS1.</span></span><span class="sig-name descname"><span class="pre">Test_SEQS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Classe que permite testagem do código do alinhamento NW</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS.test_codon_to_amino">
+<span class="sig-name descname"><span class="pre">test_codon_to_amino</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS.test_codon_to_amino" title="Permalink to this definition">¶</a></dt>
+<dd><p>Testar a função codon_to_amino</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS.test_get_all_prots">
+<span class="sig-name descname"><span class="pre">test_get_all_prots</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS.test_get_all_prots" title="Permalink to this definition">¶</a></dt>
+<dd><p>Testar a função get_all_prots</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS.test_get_codons">
+<span class="sig-name descname"><span class="pre">test_get_codons</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS.test_get_codons" title="Permalink to this definition">¶</a></dt>
+<dd><p>Testar a função get_codons</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS.test_get_orfs">
+<span class="sig-name descname"><span class="pre">test_get_orfs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS.test_get_orfs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Testar a função get_orfs</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS.test_get_prots">
+<span class="sig-name descname"><span class="pre">test_get_prots</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS.test_get_prots" title="Permalink to this definition">¶</a></dt>
+<dd><p>Testar a função get_prots</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS.test_reverse_complement">
+<span class="sig-name descname"><span class="pre">test_reverse_complement</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS.test_reverse_complement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Testar a função reverse_complement</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="SEQS1.Test_SEQS.test_transcription">
+<span class="sig-name descname"><span class="pre">test_transcription</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#SEQS1.Test_SEQS.test_transcription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Testar a função transcription</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, Joana Gonçalves e Gonçalo Apolinário
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

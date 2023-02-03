@@ -1,0 +1,7 @@
+blast module
+============
+
+.. automodule:: blast
+   :members:
+   :undoc-members:
+   :show-inheritance:

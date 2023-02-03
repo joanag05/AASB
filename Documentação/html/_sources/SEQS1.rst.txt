@@ -1,0 +1,7 @@
+SEQS1 module
+============
+
+.. automodule:: SEQS1
+   :members:
+   :undoc-members:
+   :show-inheritance:

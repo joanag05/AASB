@@ -1,0 +1,7 @@
+sw\_alignment module
+====================
+
+.. automodule:: sw_alignment
+   :members:
+   :undoc-members:
+   :show-inheritance:

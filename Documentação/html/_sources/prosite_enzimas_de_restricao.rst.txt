@@ -1,0 +1,7 @@
+prosite\_enzimas\_de\_restricao module
+======================================
+
+.. automodule:: prosite_enzimas_de_restricao
+   :members:
+   :undoc-members:
+   :show-inheritance:

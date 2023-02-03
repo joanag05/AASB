@@ -152,8 +152,7 @@ class Blast:
         for h in hits:
             ext = Blast.extend_hit(query, seq, h, w)
             score = ext[3]
-            if score > bestScore or (score== bestScore and ext[2] < best
-        [2]):
+            if score > bestScore or (score== bestScore and ext[2] < best[2]):
                 bestScore = score
                 best = ext
         return best
